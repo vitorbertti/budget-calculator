@@ -38,6 +38,11 @@
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+  transition: background 0.2s ease-out;
+
+  &:hover {
+    background: darken($color: $light-grey, 2%);
+  }
 
   .description {
     flex-grow: 1;
